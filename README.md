@@ -1,0 +1,2 @@
+Basically i have used my coding skils to make the solution appropriate but not able to solve all the problems due tio lack of time or time constrain. in javascript i have use event listers to listen the events ,used rendortodos to display the todos on the page, createNavButtons to add functionality to move left and right.All of these codes are working well and all are responsive as well.
+Thanks For the Opportunity
