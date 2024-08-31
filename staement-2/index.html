@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List with Status Navigation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="todo-container">
+        <div class="todo-card" id="backlog">
+            <h2>Backlog</h2>
+            <ul id="backlog-list">
+            </ul>
+            <div class="nav-buttons">
+                <button class="nav-left" disabled>←</button>
+                <button class="nav-right">→</button>
+            </div>
+        </div>
+        <div class="todo-card" id="todo">
+            <h2>To Do</h2>
+            <ul id="todo-list">
+            </ul>
+            <div class="nav-buttons">
+                <button class="nav-left">←</button>
+                <button class="nav-right">→</button>
+            </div>
+        </div>
+        <div class="todo-card" id="ongoing">
+            <h2>Ongoing</h2>
+            <ul id="ongoing-list">
+             
+            </ul>
+            <div class="nav-buttons">
+                <button class="nav-left">←</button>
+                <button class="nav-right">→</button>
+            </div>
+        </div>
+        <div class="todo-card" id="done">
+            <h2>Done</h2>
+            <ul id="done-list">
+            </ul>
+            <div class="nav-buttons">
+                <button class="nav-left">←</button>
+                <button class="nav-right" disabled>→</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

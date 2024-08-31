@@ -1,0 +1,65 @@
+body {
+    font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #1a73e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game-container {
+    background-color: #eceef2;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+h2, p {
+    color: rgb(11, 9, 9);
+    margin: 10px 0;
+}
+
+#userGuess {
+    padding: 10px;
+    font-size: 16px;
+    width: 60px;
+    margin-right: 10px;
+}
+
+#submitGuess, #restartGame {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#submitGuess:hover, #restartGame:hover {
+    background-color: #1669c1;
+}
+
+#chances {
+    margin-top: 15px;
+    color: rgb(5, 5, 5);
+}
+
+#restartGame {
+    margin-top: 15px;
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .game-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .game-container {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
